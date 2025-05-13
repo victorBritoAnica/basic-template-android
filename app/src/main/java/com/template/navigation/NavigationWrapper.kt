@@ -12,7 +12,7 @@ fun NavigationWrapper () {
 
     val navController = rememberNavController()
 
-    NavHost(navController = navController, startDestination = PokemonList){
+    NavHost(navController = navController, startDestination = Home){
 
         composable<Login> {
            LoginScreen()

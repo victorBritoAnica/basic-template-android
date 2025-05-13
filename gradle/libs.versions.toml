@@ -11,7 +11,7 @@ composeBom = "2023.08.00"
 navigationCompose = "2.8.2"
 kotlinSerialization = "1.6.3"
 retrofit = "2.11.0"
-hilt = "2.55"
+hilt = "2.48"
 datastore = "1.1.3"
 okhttp = "4.12.0"
 coil = "2.6.0"
@@ -21,6 +21,7 @@ compose = "1.7.8"
 netinfo = "1.0.0"
 toolsCore = "1.0.0-alpha12"
 lifecycleLivedataKtx = "2.8.7"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -61,7 +62,6 @@ androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecy
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-jetbrainsKotlinKapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 jetbrainsKotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 ksp = { id = "com.google.devtools.ksp", version = "1.9.0-1.0.13" }

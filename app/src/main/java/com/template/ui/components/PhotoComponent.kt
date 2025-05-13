@@ -91,14 +91,14 @@ fun PhotoComponent(
         }
     }
 
-    // Verificar permisos al iniciar
+
     LaunchedEffect(Unit) {
         if (!hasCameraPermission(context)) {
             permissionLauncher.launch(Manifest.permission.CAMERA)
         }
     }
 
-    // Diálogo para cuando el permiso fue denegado permanentemente
+
     if (showPermissionDialog.value) {
         AlertDialog(
             onDismissRequest = { showPermissionDialog.value = false },
